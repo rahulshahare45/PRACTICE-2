@@ -1,29 +1,30 @@
 <html>
     <head>
         <title>FORM</title>
+        
 
     </head>
-    <body bgcolor="RED">
+    <body >
         <form action="submit.html">
-            <fieldset>
-                <legend >REGESTRATION FORM</legend>
+            <fieldset b>
+                <legend ><b>REGESTRATION FORM</b></legend>
 
             <label for="Name"><b>Name:</b></label><br>
-        <input id="Name"type ="text"><br><br>
+        <input id="Name"type ="text" placeholder="Enter your name" required><br><br>
 
             <label for="Age"><b>Age:</b></label><br>
-        <input id="Age"type ="text"><br><br>
+        <input id="Age"type ="date" placeholder="Enter you age"required><br><br>
 
             <label for="Add"><b>Address :</b></label><br>
-            <input id="Add" type="text"><br><br>
+            <input id="Add" type="text" placeholder="Enter your Address"required ><br><br>
 
 
             <label for="email"><b> E-MAIL ID :</b></label><br>
-            <input id="Add" type="text"><br><br>
+            <input id="Add" type="text"required><br><br>
 
 
             <label for="Password"><b>Password:</b></label><br>
-            <input id="Password"type ="Password"><br><br>
+            <input id="Password"type ="Password"required><br><br>
 
             <label for="Gender"><b>Gender:</b></label><br>
             <input id="Gender" name="Gender" type="radio">MAN<br>
@@ -45,7 +46,7 @@
                   
 
                     <label for="STATE"><b>STATE:</b></label> 
-                    <select name="STATE" id="STATE">
+                    <select name="STATE" id="STATE"required>
                         <option value="0"><center>Select STATE </center></option>
                         <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
                         <option value="BIHAR">BIHAR</option>
@@ -75,8 +76,9 @@
                             <option value="CHENNAI">CHENNAI</option>
 
                             <input type="file"><br><br>
-                            <input type="submit" value="SUBMIT.">
-                        
+                            <!--input type="submit" value="SUBMIT."!-->
+
+                        <button>SUBMIT</button>
                         
                   
 
